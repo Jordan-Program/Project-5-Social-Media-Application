@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@900&display=swap');
+
+/* css for default values. */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+/* css for default values. */
+
+/* Css for Login and Create account page */
+#components-form-demo-normal-login .login-form 
+{
+    max-width: 300px;
+}
+  #components-form-demo-normal-login .login-form-forgot 
+{
+    float: right;
+}
+  #components-form-demo-normal-login .ant-col-rtl .login-form-forgot 
+{
+    float: left;
+}
+  #components-form-demo-normal-login .login-form-button 
+{
+    width: 100%;
+}
+/* Css for Login and Create account page */
+
+/* Css for Layout page */
+body 
+{
+  --twitter-color: #50b7f5;
+  --twitter-background: #e6ecf0;
+}
+.layout 
+{
+  display: flex;
+  height: 100vh;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Css for Layout page */
+
+/* Css for Feed page */
+.feed 
+{
+  flex: 0.4;
+  border-right: var(--twitter-background) 1px solid;
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+/* Css for Feed page */
+
+/* Css for Sidebar page */
+.sidebar__tweet 
+{
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 700 !important;
+  text-transform: inherit !important;
+  border-radius: 20px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+}
+.sidebar 
+{
+  border-right: 1px solid var(--twitter-color);
+  flex: 0.25;
+  min-width: 250px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sidebar__twitterIcon 
+{
+  color: var(--twitter-color);
+  font-size: 30px !important;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+/* Css for Sidebar page */
+
+/* Css for SidebarOption page */
+.sidebarOption 
+{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.sidebarOption:hover 
+{
+  background-color: #e8f5fe;
+  color: var(--twitter-color);
+  transition: color 100ms ease-out;
+}
+.sidebarOption > .MuiSvgIcon-root 
+{
+  padding: 20px;
+}
+.sidebarOption > h2 
+{
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.sidebarOption--active 
+{
+  color: var(--twitter-color);
+}
+/* Css for SidebarOption page */
+
+/* Css for Tweetbox page */
+.tweetBox 
+{
+  padding-bottom: 10px;
+  border-bottom: 8px solid var(--twitter-background);
+  padding-right: 10px;
+}
+
+.tweetBox > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweetBox_input > input:focus 
+{
+  outline: none;
+}
+
+.tweetBox__button 
+{
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 700 !important;
+  text-transform: inherit !important;
+  border-radius: 20px !important;
+  height: 45px !important;
+  margin-top: 20px !important;
+  margin-left: auto !important;
+}
+
+.tweetBox__imageInput 
+{
+  border: none;
+  padding: 15px;
+}
+
+.tweetBox__imageInput > input:focus 
+{
+  outline: none;
+}
+/* Css for Tweetbox page */
+
+/* Css for Widget page */
+.widgets 
+{
+  flex: 0.3;
+  overflow-y: scroll;
+}
+
+.widgets::-webkit-scrollbar 
+{
+  display: none;
+}
+
+.widgets__input 
+{
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.widgets__input > input 
+{
+  border: none;
+  background-color: var(--twitter-background);
+}
+.widgets__input > input:focus 
+{
+  outline: none;
+}
+
+.widgets__searchIcon 
+{
+  color: gray;
+}
+
+.widgets__widgetContainer 
+{
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
+}
+
+.widgets__widgetContainer > h2 
+{
+  font-size: 18px;
+  font-weight: 700;
+}
+/* Css for Widget page */

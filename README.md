@@ -25,7 +25,7 @@ The TWITALK is a simplified version of Twitter, allowing users to post tweets, f
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/Jordan-Program/Project-5-Social-Media-Application.git
+    git clone https://github.com/jordandatuin/Project-5-Social-Media-Application.git
     ```
 
 2. **Install Dependencies:**

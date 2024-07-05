@@ -11,6 +11,7 @@ import PublishIcon from '@mui/icons-material/Publish';
 import RepeatIcon from '@mui/icons-material/Repeat';
 import VerifiedUserSharpIcon from '@mui/icons-material/VerifiedUserSharp';
 import DeleteIcon from '@mui/icons-material/Delete';
+import Tooltip from '@mui/material/Tooltip';
 
 import formatDistanceToNow from 'date-fns/formatDistanceToNow';
 
@@ -150,12 +151,17 @@ function Post({ id, displayName, username, verified, text, image, avatar, timest
             <RepeatIcon fontSize="small" />
             <FavoriteBorderIcon fontSize="small" />
             <PublishIcon fontSize="small"/>
-            <DeleteIcon onClick={handleDeleteClick} variant="contained" fontSize="small"></DeleteIcon>
+            <Tooltip title="Delete post">
+                <DeleteIcon onClick={handleDeleteClick} variant="contained" fontSize="small"></DeleteIcon>
+            </Tooltip>
         </div>
       </div>
     </div>
   );
 }
+
+
+
 
 // Export the Post component as the default export
 export default Post;
